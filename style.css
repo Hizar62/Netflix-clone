@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #ffffff;
+    --accent-color: #e50914;
+    --background: #000000;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    
+}
+
+body ,html{
+    height: 100%;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
+
+}
+
+
+.text{
+    text-align: center;
+}
+
+
+.header nav img{
+    width: 225px;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.header nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;  
+}
+
+button{
+    padding: 7px;
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+
+.header nav img{
+    margin-top: -18px;
+    margin-left: -36px;
+}
+
+.header nav a button{
+    margin-top: -18px;
+    margin-right: 36px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(assets/PK-en-20230130-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+
+.text input {
+    background: var(--primary-text-color);
+    border: 0;
+    padding: 20px;
+    width: 100%;
+}
+.text input:focus {
+    outline: none;
+  }
+  
+.text input::placeholder {
+    color: #3b352f;
+}
+
+.text button {
+    background: var(--accent-color);
+    border: 0;
+    color: var(--primary-text-color);
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    height: 55px;
+    width: 35%;
+}
+.text{
+    margin-top: 140px;
+}
+.text1{
+    margin-top: -113px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding-top: 130px;
+}
+
+.spacer{
+    height: 10px;
+    background: #1a1a1a;
+}
+
+
+.SecondCont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--background);
+    padding: 60px;
+    gap: 53px;
+    
+}
+.textContent{
+    /* background-color: var(--background); */
+    color: var(--primary-text-color);
+    margin-left: 100px;
+}
+
+.tv_container{
+    position: relative;
+}
+.tv_container img{
+   
+    width: 500px;
+
+}
+.tv_container video{
+    position: absolute;
+    width: 365px;
+    top: 79px;
+    left: 65px;
+    
+
+}
+
+.SecondMedia{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background);
+    
+
+}
+
+
+.ContentImage.BGcontent{
+    height: auto;
+    width: 500px;
+
+}
+.small-box{
+    position: sticky;
+    border-radius: 10px;
+    border: solid #1a1a1a;
+    left: 150px;
+    top: 1470px;
+    height: 90px;
+    width: 340px;
+    background-color: var(--background);
+}
+.small-box p {
+    margin-left: 80px;
+    margin-top: 12px;
+}
+.one{
+    color: #0071eb;
+}
+.Down{
+    position: absolute;
+    top: 6px;
+    left: 260px;
+    height: 67px;
+}
+
+.small-image{
+    position: absolute;
+    width: 50px;
+    left: 15px;
+    bottom: 9px;
+}
+.contentText{
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-top: 170px;
+}
+.ThirdMedia{
+    background-color: var(--background);
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.con{
+    font-size: 1rem;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    width: 800px;
+}
+.ForthMedia{
+    background-color: var(--background);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ForthMedia img{
+    width: 530px;
+    margin-left: 175px;
+}
+.text2{
+    font-size: 1rem;
+
+}
+.FifthContent{
+    background-color: var(--background);
+    text-align: center;
+    
+}
+.FifthContent h1{
+    font-weight: 500;
+}
+.contain{
+    background-color: #1a1a1a;
+    height: 50px;
+    width: 800px;
+    margin-left: 280px;
+}
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.lab::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+
+}
+
+.accordian .cont{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+
+
+}
+
+.accordian input[type="radio"]:checked + label +.cont{
+    max-height: 600px;
+    padding: 30px 2px;
+}
+
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+
+}
+.text1 button {
+    background: var(--accent-color);
+    border: 0;
+    color: var(--primary-text-color);
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    height: 55px;
+    width: 35%;
+}
+.text1 input {
+    background: var(--primary-text-color);
+    border: 0;
+    padding: 20px;
+    width: 100%;
+}
+.text1 input:focus {
+    outline: none;
+  }
+  
+.text1 input::placeholder {
+    color: #3b352f;
+}
+.last h5{
+    font-weight: 500;
+}
+
+.footer{
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px;
+    
+}
+.first{
+    display: block;
+    line-height: 40px; 
+}
+.second a{
+    display: block;
+    line-height: 40px; 
+}
+.third a{
+    display: block;
+    line-height: 40px; 
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: var(--primary-text-color);
+}
